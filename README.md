@@ -77,27 +77,27 @@ Usage
 const wSignal = require('w-signal')
 
 async function tryExample () {
-  const receiver = wSignal()
-  const proxy = wSignal()
-  const sender = wSignal()
+  const signal01 = wSignal()
+  const signal02 = wSignal()
+  const signal03 = wSignal()
 
   {
-    class Subject01 {
+    class Person {
       async hi (msg) {
         return `hi, ${msg}`
       }
     }
 
-    const subject01 = receiver.load(Subject01, 'subject01')
-    await subject01.hi('Calling from local!')
+    const john = signal01.load(Person, 'john')
+    await john.hi('Calling from local!')
   }
 
-  await sender.connect(proxy)
-  await proxy.connect(receiver)
+  await signal03.connect(signal02)
+  await signal02.connect(signal01)
 
   {
-    const subject01 = sender.use('subject01')
-    await subject01.hi('Calling from remote!')
+    const john = signal03.use('john')
+    await john.hi('Calling from remote!')
   }
 
 }
@@ -116,7 +116,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [w-signal@1.1.2](./doc/api/api.md)
++ [w-signal@1.1.3](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#w-signal-function-create)
   + [WSignal](./doc/api/api.md#w-signal-class)
 
