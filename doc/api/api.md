@@ -1,4 +1,4 @@
-# w-signal@1.1.0
+# w-signal@1.1.1
 
 Signal converter for w
 
@@ -9,13 +9,13 @@ Signal converter for w
   + [signal.load(Class, names)](#w-signal-classes-w-signal-load)
   + [signal.use(names)](#w-signal-classes-w-signal-use)
   + [signal.connect(signal)](#w-signal-classes-w-signal-connect)
-  + [signal.$$send(config)](#w-signal-classes-w-signal-$$send)
-  + [signal.$$ask(subject, options)](#w-signal-classes-w-signal-$$ask)
+  + [signal.send(config)](#w-signal-classes-w-signal-send)
+  + [signal.ask(subject, options)](#w-signal-classes-w-signal-ask)
   + [signal.load(Class, names)](#w-signal-classes-w-signal-load)
   + [signal.use(names)](#w-signal-classes-w-signal-use)
   + [signal.connect(signal)](#w-signal-classes-w-signal-connect)
-  + [signal.$$send(config)](#w-signal-classes-w-signal-$$send)
-  + [signal.$$ask(subject, options)](#w-signal-classes-w-signal-$$ask)
+  + [signal.send(config)](#w-signal-classes-w-signal-send)
+  + [signal.ask(subject, options)](#w-signal-classes-w-signal-ask)
 
 ## Functions
 
@@ -82,9 +82,9 @@ Connect to another signal
 | signal | WSignal |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-$$send" ></a>
+<a class='md-heading-link' name="w-signal-classes-w-signal-send" ></a>
 
-### signal.$$send(config) -> `Promise.<*>`
+### signal.send(config) -> `Promise.<*>`
 
 Send message
 
@@ -93,9 +93,9 @@ Send message
 | config |  |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-$$ask" ></a>
+<a class='md-heading-link' name="w-signal-classes-w-signal-ask" ></a>
 
-### signal.$$ask(subject, options) -> `Promise.<Object>`
+### signal.ask(subject, options) -> `Promise.<Object>`
 
 Ask subject spec
 
@@ -139,9 +139,9 @@ Connect to another signal
 | signal | WSignal |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-$$send" ></a>
+<a class='md-heading-link' name="w-signal-classes-w-signal-send" ></a>
 
-### signal.$$send(config) -> `Promise.<*>`
+### signal.send(config) -> `Promise.<*>`
 
 Send message
 
@@ -150,9 +150,9 @@ Send message
 | config |  |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-$$ask" ></a>
+<a class='md-heading-link' name="w-signal-classes-w-signal-ask" ></a>
 
-### signal.$$ask(subject, options) -> `Promise.<Object>`
+### signal.ask(subject, options) -> `Promise.<Object>`
 
 Ask subject spec
 

@@ -130,6 +130,27 @@
                     }
                 },
                 {
+                    "name": "disconnect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Disconnect another signal",
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "send",
                     "access": "",
                     "virtual": false,
@@ -238,6 +259,27 @@
                         {
                             "name": "signal",
                             "type": "WSignal",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "disconnect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Disconnect another signal",
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "type": "",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -388,6 +430,27 @@
                     }
                 },
                 {
+                    "name": "disconnect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Disconnect another signal",
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "send",
                     "access": "",
                     "virtual": false,
@@ -496,6 +559,27 @@
                         {
                             "name": "signal",
                             "type": "WSignal",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "disconnect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Disconnect another signal",
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "type": "",
                             "description": "",
                             "default": "",
                             "optional": "",
