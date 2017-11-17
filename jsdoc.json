@@ -1,0 +1,564 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a WSignal instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "WSignal",
+                "description": ""
+            }
+        },
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a WSignal instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "WSignal",
+                "description": ""
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "WSignal",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "WSignal",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "load",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Load subject into the signal",
+                    "parameters": [
+                        {
+                            "name": "Class",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "names",
+                            "type": "string",
+                            "description": "Name paths",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "object",
+                        "description": "- Loaded instance"
+                    }
+                },
+                {
+                    "name": "use",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Use subject",
+                    "parameters": [
+                        {
+                            "name": "names",
+                            "type": "string",
+                            "description": "Name paths",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": "- Local loaded subject or remote subject proxy"
+                    }
+                },
+                {
+                    "name": "connect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Connect to another signal",
+                    "parameters": [
+                        {
+                            "name": "signal",
+                            "type": "WSignal",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "$$send",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Send message",
+                    "parameters": [
+                        {
+                            "name": "config",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "$$ask",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Ask subject spec",
+                    "parameters": [
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "load",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Load subject into the signal",
+                    "parameters": [
+                        {
+                            "name": "Class",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "names",
+                            "type": "string",
+                            "description": "Name paths",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "object",
+                        "description": "- Loaded instance"
+                    }
+                },
+                {
+                    "name": "use",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Use subject",
+                    "parameters": [
+                        {
+                            "name": "names",
+                            "type": "string",
+                            "description": "Name paths",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": "- Local loaded subject or remote subject proxy"
+                    }
+                },
+                {
+                    "name": "connect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Connect to another signal",
+                    "parameters": [
+                        {
+                            "name": "signal",
+                            "type": "WSignal",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "$$send",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Send message",
+                    "parameters": [
+                        {
+                            "name": "config",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "$$ask",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Ask subject spec",
+                    "parameters": [
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": "WSignal",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "WSignal",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "load",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Load subject into the signal",
+                    "parameters": [
+                        {
+                            "name": "Class",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "names",
+                            "type": "string",
+                            "description": "Name paths",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "object",
+                        "description": "- Loaded instance"
+                    }
+                },
+                {
+                    "name": "use",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Use subject",
+                    "parameters": [
+                        {
+                            "name": "names",
+                            "type": "string",
+                            "description": "Name paths",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": "- Local loaded subject or remote subject proxy"
+                    }
+                },
+                {
+                    "name": "connect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Connect to another signal",
+                    "parameters": [
+                        {
+                            "name": "signal",
+                            "type": "WSignal",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "$$send",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Send message",
+                    "parameters": [
+                        {
+                            "name": "config",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "$$ask",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Ask subject spec",
+                    "parameters": [
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "load",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Load subject into the signal",
+                    "parameters": [
+                        {
+                            "name": "Class",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "names",
+                            "type": "string",
+                            "description": "Name paths",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "object",
+                        "description": "- Loaded instance"
+                    }
+                },
+                {
+                    "name": "use",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Use subject",
+                    "parameters": [
+                        {
+                            "name": "names",
+                            "type": "string",
+                            "description": "Name paths",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": "- Local loaded subject or remote subject proxy"
+                    }
+                },
+                {
+                    "name": "connect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Connect to another signal",
+                    "parameters": [
+                        {
+                            "name": "signal",
+                            "type": "WSignal",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "$$send",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Send message",
+                    "parameters": [
+                        {
+                            "name": "config",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "$$ask",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Ask subject spec",
+                    "parameters": [
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
