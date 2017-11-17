@@ -1,4 +1,4 @@
-# w-signal@1.0.2
+# w-signal@1.0.3
 
 Signal converter for w
 
