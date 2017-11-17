@@ -130,7 +130,7 @@
                     }
                 },
                 {
-                    "name": "$$send",
+                    "name": "send",
                     "access": "",
                     "virtual": false,
                     "description": "Send message",
@@ -151,7 +151,7 @@
                     }
                 },
                 {
-                    "name": "$$ask",
+                    "name": "ask",
                     "access": "",
                     "virtual": false,
                     "description": "Ask subject spec",
@@ -251,7 +251,7 @@
                     }
                 },
                 {
-                    "name": "$$send",
+                    "name": "send",
                     "access": "",
                     "virtual": false,
                     "description": "Send message",
@@ -272,7 +272,7 @@
                     }
                 },
                 {
-                    "name": "$$ask",
+                    "name": "ask",
                     "access": "",
                     "virtual": false,
                     "description": "Ask subject spec",
@@ -388,7 +388,7 @@
                     }
                 },
                 {
-                    "name": "$$send",
+                    "name": "send",
                     "access": "",
                     "virtual": false,
                     "description": "Send message",
@@ -409,7 +409,7 @@
                     }
                 },
                 {
-                    "name": "$$ask",
+                    "name": "ask",
                     "access": "",
                     "virtual": false,
                     "description": "Ask subject spec",
@@ -509,7 +509,7 @@
                     }
                 },
                 {
-                    "name": "$$send",
+                    "name": "send",
                     "access": "",
                     "virtual": false,
                     "description": "Send message",
@@ -530,7 +530,7 @@
                     }
                 },
                 {
-                    "name": "$$ask",
+                    "name": "ask",
                     "access": "",
                     "virtual": false,
                     "description": "Ask subject spec",
