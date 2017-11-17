@@ -116,7 +116,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [w-signal@1.1.1](./doc/api/api.md)
++ [w-signal@1.1.2](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#w-signal-function-create)
   + [WSignal](./doc/api/api.md#w-signal-class)
 

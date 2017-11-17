@@ -1,4 +1,4 @@
-# w-signal@1.1.1
+# w-signal@1.1.2
 
 Signal converter for w
 
@@ -9,11 +9,13 @@ Signal converter for w
   + [signal.load(Class, names)](#w-signal-classes-w-signal-load)
   + [signal.use(names)](#w-signal-classes-w-signal-use)
   + [signal.connect(signal)](#w-signal-classes-w-signal-connect)
+  + [signal.disconnect(id)](#w-signal-classes-w-signal-disconnect)
   + [signal.send(config)](#w-signal-classes-w-signal-send)
   + [signal.ask(subject, options)](#w-signal-classes-w-signal-ask)
   + [signal.load(Class, names)](#w-signal-classes-w-signal-load)
   + [signal.use(names)](#w-signal-classes-w-signal-use)
   + [signal.connect(signal)](#w-signal-classes-w-signal-connect)
+  + [signal.disconnect(id)](#w-signal-classes-w-signal-disconnect)
   + [signal.send(config)](#w-signal-classes-w-signal-send)
   + [signal.ask(subject, options)](#w-signal-classes-w-signal-ask)
 
@@ -82,6 +84,17 @@ Connect to another signal
 | signal | WSignal |  |
 
 
+<a class='md-heading-link' name="w-signal-classes-w-signal-disconnect" ></a>
+
+### signal.disconnect(id) -> `Promise.<void>`
+
+Disconnect another signal
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| id |  |  |
+
+
 <a class='md-heading-link' name="w-signal-classes-w-signal-send" ></a>
 
 ### signal.send(config) -> `Promise.<*>`
@@ -137,6 +150,17 @@ Connect to another signal
 | Param | Type | Description |
 | ----- | --- | -------- |
 | signal | WSignal |  |
+
+
+<a class='md-heading-link' name="w-signal-classes-w-signal-disconnect" ></a>
+
+### signal.disconnect(id) -> `Promise.<void>`
+
+Disconnect another signal
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| id |  |  |
 
 
 <a class='md-heading-link' name="w-signal-classes-w-signal-send" ></a>
