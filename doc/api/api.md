@@ -1,4 +1,4 @@
-# w-spot@2.0.0
+# w-spot@2.0.1
 
 Signal converter for w
 

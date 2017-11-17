@@ -62,7 +62,7 @@
                     "name": "load",
                     "access": "",
                     "virtual": false,
-                    "description": "Load subject into the signal",
+                    "description": "Load subject into the spot",
                     "parameters": [
                         {
                             "name": "Class",
@@ -112,10 +112,10 @@
                     "name": "connect",
                     "access": "",
                     "virtual": false,
-                    "description": "Connect to another signal",
+                    "description": "Connect to another spot",
                     "parameters": [
                         {
-                            "name": "signal",
+                            "name": "spot",
                             "type": "WSpot",
                             "description": "",
                             "default": "",
@@ -133,7 +133,7 @@
                     "name": "disconnect",
                     "access": "",
                     "virtual": false,
-                    "description": "Disconnect another signal",
+                    "description": "Disconnect another spot",
                     "parameters": [
                         {
                             "name": "id",
@@ -204,7 +204,7 @@
                     "name": "load",
                     "access": "",
                     "virtual": false,
-                    "description": "Load subject into the signal",
+                    "description": "Load subject into the spot",
                     "parameters": [
                         {
                             "name": "Class",
@@ -254,10 +254,10 @@
                     "name": "connect",
                     "access": "",
                     "virtual": false,
-                    "description": "Connect to another signal",
+                    "description": "Connect to another spot",
                     "parameters": [
                         {
-                            "name": "signal",
+                            "name": "spot",
                             "type": "WSpot",
                             "description": "",
                             "default": "",
@@ -275,7 +275,7 @@
                     "name": "disconnect",
                     "access": "",
                     "virtual": false,
-                    "description": "Disconnect another signal",
+                    "description": "Disconnect another spot",
                     "parameters": [
                         {
                             "name": "id",
@@ -362,7 +362,7 @@
                     "name": "load",
                     "access": "",
                     "virtual": false,
-                    "description": "Load subject into the signal",
+                    "description": "Load subject into the spot",
                     "parameters": [
                         {
                             "name": "Class",
@@ -412,10 +412,10 @@
                     "name": "connect",
                     "access": "",
                     "virtual": false,
-                    "description": "Connect to another signal",
+                    "description": "Connect to another spot",
                     "parameters": [
                         {
-                            "name": "signal",
+                            "name": "spot",
                             "type": "WSpot",
                             "description": "",
                             "default": "",
@@ -433,7 +433,7 @@
                     "name": "disconnect",
                     "access": "",
                     "virtual": false,
-                    "description": "Disconnect another signal",
+                    "description": "Disconnect another spot",
                     "parameters": [
                         {
                             "name": "id",
@@ -504,7 +504,7 @@
                     "name": "load",
                     "access": "",
                     "virtual": false,
-                    "description": "Load subject into the signal",
+                    "description": "Load subject into the spot",
                     "parameters": [
                         {
                             "name": "Class",
@@ -554,10 +554,10 @@
                     "name": "connect",
                     "access": "",
                     "virtual": false,
-                    "description": "Connect to another signal",
+                    "description": "Connect to another spot",
                     "parameters": [
                         {
-                            "name": "signal",
+                            "name": "spot",
                             "type": "WSpot",
                             "description": "",
                             "default": "",
@@ -575,7 +575,7 @@
                     "name": "disconnect",
                     "access": "",
                     "virtual": false,
-                    "description": "Disconnect another signal",
+                    "description": "Disconnect another spot",
                     "parameters": [
                         {
                             "name": "id",

@@ -78,9 +78,9 @@ const wSpot = require('w-spot')
 
 async function tryExample () {
   // Create multiple spot
-  const newYork = wSpot()
-  const hongKong = wSpot()
-  const japan = wSpot()
+  const NewYork = wSpot()
+  const HongKong = wSpot()
+  const Japan = wSpot()
 
   {
     class Person {
@@ -90,17 +90,17 @@ async function tryExample () {
     }
 
     // Create a instance to a spot
-    const john = newYork.load(Person, 'john')
+    const john = NewYork.load(Person, 'john')
     await john.hi('I am in NewYork!')
   }
 
   // Connect each spot
-  await japan.connect(hongKong)
-  await hongKong.connect(newYork)
+  await Japan.connect(HongKong)
+  await HongKong.connect(NewYork)
 
   {
     // Use remote instance
-    const john = japan.use('john')
+    const john = Japan.use('john')
     await john.hi('Calling from Japan!')
   }
 
@@ -120,7 +120,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [w-spot@2.0.0](./doc/api/api.md)
++ [w-spot@2.0.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#w-spot-function-create)
   + [WSpot](./doc/api/api.md#w-spot-class)
 
