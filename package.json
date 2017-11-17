@@ -30,7 +30,7 @@
   "homepage": "https://github.com/realglobe-Inc/w-signal#readme",
   "dependencies": {
     "uuid": "^3.1.0",
-    "w-constants": "file:../w-constants"
+    "w-constants": "^1.0.1"
   },
   "devDependencies": {
     "mocha": "^4.0.1",
