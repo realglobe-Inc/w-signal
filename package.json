@@ -1,6 +1,6 @@
 {
   "name": "w-signal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Signal converter for w",
   "main": "lib",
   "browser": "shim",
