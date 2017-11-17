@@ -4,7 +4,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a WSignal instance",
+            "description": "Create a WSpot instance",
             "parameters": [
                 {
                     "name": "args",
@@ -17,7 +17,7 @@
             ],
             "examples": [],
             "returns": {
-                "type": "WSignal",
+                "type": "WSpot",
                 "description": ""
             }
         },
@@ -25,7 +25,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a WSignal instance",
+            "description": "Create a WSpot instance",
             "parameters": [
                 {
                     "name": "args",
@@ -38,21 +38,21 @@
             ],
             "examples": [],
             "returns": {
-                "type": "WSignal",
+                "type": "WSpot",
                 "description": ""
             }
         }
     ],
     "classes": [
         {
-            "name": "WSignal",
+            "name": "WSpot",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "WSignal",
+                "name": "WSpot",
                 "description": "",
                 "parameters": [],
                 "examples": []
@@ -116,7 +116,7 @@
                     "parameters": [
                         {
                             "name": "signal",
-                            "type": "WSignal",
+                            "type": "WSpot",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -258,7 +258,7 @@
                     "parameters": [
                         {
                             "name": "signal",
-                            "type": "WSignal",
+                            "type": "WSpot",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -345,14 +345,14 @@
             ]
         },
         {
-            "name": "WSignal",
+            "name": "WSpot",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "WSignal",
+                "name": "WSpot",
                 "description": "",
                 "parameters": [],
                 "examples": []
@@ -416,7 +416,7 @@
                     "parameters": [
                         {
                             "name": "signal",
-                            "type": "WSignal",
+                            "type": "WSpot",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -558,7 +558,7 @@
                     "parameters": [
                         {
                             "name": "signal",
-                            "type": "WSignal",
+                            "type": "WSpot",
                             "description": "",
                             "default": "",
                             "optional": "",

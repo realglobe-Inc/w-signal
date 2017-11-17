@@ -1,13 +1,13 @@
 /**
- * Test for WSignal.
+ * Test for WSpot.
  * Runs with mocha.
  */
 'use strict'
 
-const WSignal = require('../lib/WSignal')
+const WSpot = require('../lib/WSpot')
 const {ok, equal} = require('assert')
 
-describe('w-signal', () => {
+describe('w-spot', () => {
   before(() => {
   })
 
@@ -15,9 +15,9 @@ describe('w-signal', () => {
   })
 
   it('Do test', async () => {
-    const receiver = new WSignal()
-    const proxy = new WSignal()
-    const sender = new WSignal()
+    const receiver = new WSpot()
+    const proxy = new WSpot()
+    const sender = new WSpot()
 
     {
       class Subject01 {

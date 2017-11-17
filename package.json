@@ -1,6 +1,6 @@
 {
-  "name": "w-signal",
-  "version": "1.1.4",
+  "name": "w-spot",
+  "version": "2.0.0",
   "description": "Signal converter for w",
   "main": "lib",
   "browser": "shim",
@@ -14,7 +14,7 @@
     "update": "the-script-update",
     "watch": "the-script-build -w"
   },
-  "repository": "realglobe-Inc/w-signal",
+  "repository": "realglobe-Inc/w-spot",
   "keywords": [
     "the"
   ],
@@ -25,9 +25,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/realglobe-Inc/w-signal/issues"
+    "url": "https://github.com/realglobe-Inc/w-spot/issues"
   },
-  "homepage": "https://github.com/realglobe-Inc/w-signal#readme",
+  "homepage": "https://github.com/realglobe-Inc/w-spot#readme",
   "dependencies": {
     "uuid": "^3.1.0",
     "w-constants": "^1.0.1"

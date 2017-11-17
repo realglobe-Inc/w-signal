@@ -1,31 +1,31 @@
-# w-signal@1.1.3
+# w-spot@1.1.4
 
 Signal converter for w
 
 + Functions
-  + [create(args)](#w-signal-function-create)
-+ [`WSignal`](#w-signal-classes) Class
-  + [new WSignal()](#w-signal-classes-w-signal-constructor)
-  + [signal.load(Class, names)](#w-signal-classes-w-signal-load)
-  + [signal.use(names)](#w-signal-classes-w-signal-use)
-  + [signal.connect(signal)](#w-signal-classes-w-signal-connect)
-  + [signal.disconnect(id)](#w-signal-classes-w-signal-disconnect)
-  + [signal.send(config)](#w-signal-classes-w-signal-send)
-  + [signal.ask(subject, options)](#w-signal-classes-w-signal-ask)
-  + [signal.load(Class, names)](#w-signal-classes-w-signal-load)
-  + [signal.use(names)](#w-signal-classes-w-signal-use)
-  + [signal.connect(signal)](#w-signal-classes-w-signal-connect)
-  + [signal.disconnect(id)](#w-signal-classes-w-signal-disconnect)
-  + [signal.send(config)](#w-signal-classes-w-signal-send)
-  + [signal.ask(subject, options)](#w-signal-classes-w-signal-ask)
+  + [create(args)](#w-spot-function-create)
++ [`WSpot`](#w-spot-classes) Class
+  + [new WSpot()](#w-spot-classes-w-spot-constructor)
+  + [spot.load(Class, names)](#w-spot-classes-w-spot-load)
+  + [spot.use(names)](#w-spot-classes-w-spot-use)
+  + [spot.connect(signal)](#w-spot-classes-w-spot-connect)
+  + [spot.disconnect(id)](#w-spot-classes-w-spot-disconnect)
+  + [spot.send(config)](#w-spot-classes-w-spot-send)
+  + [spot.ask(subject, options)](#w-spot-classes-w-spot-ask)
+  + [spot.load(Class, names)](#w-spot-classes-w-spot-load)
+  + [spot.use(names)](#w-spot-classes-w-spot-use)
+  + [spot.connect(signal)](#w-spot-classes-w-spot-connect)
+  + [spot.disconnect(id)](#w-spot-classes-w-spot-disconnect)
+  + [spot.send(config)](#w-spot-classes-w-spot-send)
+  + [spot.ask(subject, options)](#w-spot-classes-w-spot-ask)
 
 ## Functions
 
-<a class='md-heading-link' name="w-signal-function-create" ></a>
+<a class='md-heading-link' name="w-spot-function-create" ></a>
 
-### create(args) -> `WSignal`
+### create(args) -> `WSpot`
 
-Create a WSignal instance
+Create a WSpot instance
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -33,26 +33,26 @@ Create a WSignal instance
 
 
 
-<a class='md-heading-link' name="w-signal-classes"></a>
+<a class='md-heading-link' name="w-spot-classes"></a>
 
-## `WSignal` Class
-
-
+## `WSpot` Class
 
 
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-constructor" ></a>
-
-### new WSignal()
-
-Constructor of WSignal class
 
 
+<a class='md-heading-link' name="w-spot-classes-w-spot-constructor" ></a>
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-load" ></a>
+### new WSpot()
 
-### signal.load(Class, names) -> `object`
+Constructor of WSpot class
+
+
+
+<a class='md-heading-link' name="w-spot-classes-w-spot-load" ></a>
+
+### spot.load(Class, names) -> `object`
 
 Load subject into the signal
 
@@ -62,9 +62,9 @@ Load subject into the signal
 | names | string | Name paths |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-use" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-use" ></a>
 
-### signal.use(names) -> `Promise.<Object>`
+### spot.use(names) -> `Promise.<Object>`
 
 Use subject
 
@@ -73,20 +73,20 @@ Use subject
 | names | string | Name paths |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-connect" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-connect" ></a>
 
-### signal.connect(signal) -> `Promise.<void>`
+### spot.connect(signal) -> `Promise.<void>`
 
 Connect to another signal
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| signal | WSignal |  |
+| signal | WSpot |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-disconnect" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-disconnect" ></a>
 
-### signal.disconnect(id) -> `Promise.<void>`
+### spot.disconnect(id) -> `Promise.<void>`
 
 Disconnect another signal
 
@@ -95,9 +95,9 @@ Disconnect another signal
 | id |  |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-send" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-send" ></a>
 
-### signal.send(config) -> `Promise.<*>`
+### spot.send(config) -> `Promise.<*>`
 
 Send message
 
@@ -106,9 +106,9 @@ Send message
 | config |  |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-ask" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-ask" ></a>
 
-### signal.ask(subject, options) -> `Promise.<Object>`
+### spot.ask(subject, options) -> `Promise.<Object>`
 
 Ask subject spec
 
@@ -118,9 +118,9 @@ Ask subject spec
 | options | Object |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-load" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-load" ></a>
 
-### signal.load(Class, names) -> `object`
+### spot.load(Class, names) -> `object`
 
 Load subject into the signal
 
@@ -130,9 +130,9 @@ Load subject into the signal
 | names | string | Name paths |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-use" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-use" ></a>
 
-### signal.use(names) -> `Promise.<Object>`
+### spot.use(names) -> `Promise.<Object>`
 
 Use subject
 
@@ -141,20 +141,20 @@ Use subject
 | names | string | Name paths |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-connect" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-connect" ></a>
 
-### signal.connect(signal) -> `Promise.<void>`
+### spot.connect(signal) -> `Promise.<void>`
 
 Connect to another signal
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| signal | WSignal |  |
+| signal | WSpot |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-disconnect" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-disconnect" ></a>
 
-### signal.disconnect(id) -> `Promise.<void>`
+### spot.disconnect(id) -> `Promise.<void>`
 
 Disconnect another signal
 
@@ -163,9 +163,9 @@ Disconnect another signal
 | id |  |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-send" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-send" ></a>
 
-### signal.send(config) -> `Promise.<*>`
+### spot.send(config) -> `Promise.<*>`
 
 Send message
 
@@ -174,9 +174,9 @@ Send message
 | config |  |  |
 
 
-<a class='md-heading-link' name="w-signal-classes-w-signal-ask" ></a>
+<a class='md-heading-link' name="w-spot-classes-w-spot-ask" ></a>
 
-### signal.ask(subject, options) -> `Promise.<Object>`
+### spot.ask(subject, options) -> `Promise.<Object>`
 
 Ask subject spec
 

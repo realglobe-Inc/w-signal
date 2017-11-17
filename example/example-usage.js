@@ -1,11 +1,12 @@
 'use strict'
 
-const wSignal = require('w-signal')
+const wSpot = require('w-spot')
 
 async function tryExample () {
-  const signal01 = wSignal()
-  const signal02 = wSignal()
-  const signal03 = wSignal()
+  // Create multiple spot
+  const newYork = wSpot()
+  const hongKong = wSpot()
+  const japan = wSpot()
 
   {
     class Person {
@@ -14,16 +15,19 @@ async function tryExample () {
       }
     }
 
-    const john = signal01.load(Person, 'john')
-    await john.hi('Calling from local!')
+    // Create a instance to a spot
+    const john = newYork.load(Person, 'john')
+    await john.hi('I am in NewYork!')
   }
 
-  await signal03.connect(signal02)
-  await signal02.connect(signal01)
+  // Connect each spot
+  await japan.connect(hongKong)
+  await hongKong.connect(newYork)
 
   {
-    const john = signal03.use('john')
-    await john.hi('Calling from remote!')
+    // Use remote instance
+    const john = japan.use('john')
+    await john.hi('Calling from Japan!')
   }
 
 }
