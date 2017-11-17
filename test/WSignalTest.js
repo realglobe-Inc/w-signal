@@ -41,6 +41,7 @@ describe('w-signal', () => {
       )
     }
 
+    await proxy.disconnect(receiver)
   })
 })
 
