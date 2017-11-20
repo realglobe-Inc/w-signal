@@ -43,10 +43,52 @@
             }
         },
         {
+            "name": "cacheMix",
+            "access": "",
+            "virtual": false,
+            "description": "Cache mix",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "- Mixed class"
+            }
+        },
+        {
             "name": "specMix",
             "access": "",
             "virtual": false,
             "description": "Mixin spec",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "- Mixed class"
+            }
+        },
+        {
+            "name": "spotMix",
+            "access": "",
+            "virtual": false,
+            "description": "Spot mix",
             "parameters": [
                 {
                     "name": "Class",

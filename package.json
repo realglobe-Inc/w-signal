@@ -1,6 +1,6 @@
 {
   "name": "w-spot",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Signal converter for w",
   "main": "lib",
   "browser": "shim",
