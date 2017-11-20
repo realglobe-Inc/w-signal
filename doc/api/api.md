@@ -4,8 +4,10 @@ Signal converter for w
 
 + Functions
   + [create(args)](#w-spot-function-create)
+  + [specMix(Class)](#w-spot-function-spec-mix)
+  + [baseMix(Class)](#w-spot-function-base-mix)
 + [`WSpot`](#w-spot-classes) Class
-  + [new WSpot()](#w-spot-classes-w-spot-constructor)
+  + [new WSpot(id)](#w-spot-classes-w-spot-constructor)
   + [spot.load(Class, names)](#w-spot-classes-w-spot-load)
   + [spot.use(names)](#w-spot-classes-w-spot-use)
   + [spot.connect(spot)](#w-spot-classes-w-spot-connect)
@@ -31,23 +33,46 @@ Create a WSpot instance
 | ----- | --- | -------- |
 | args | * |  |
 
+<a class='md-heading-link' name="w-spot-function-spec-mix" ></a>
+
+### specMix(Class) -> `function`
+
+Mixin spec
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="w-spot-function-base-mix" ></a>
+
+### baseMix(Class) -> `function`
+
+Mixin base
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
 
 
 <a class='md-heading-link' name="w-spot-classes"></a>
 
 ## `WSpot` Class
 
-
+WSpot
 
 
 
 
 <a class='md-heading-link' name="w-spot-classes-w-spot-constructor" ></a>
 
-### new WSpot()
+### new WSpot(id)
 
 Constructor of WSpot class
 
+| Param | Type | Description |
+| ----- | --- | -------- |
+| id | string | Id for spot |
 
 
 <a class='md-heading-link' name="w-spot-classes-w-spot-load" ></a>

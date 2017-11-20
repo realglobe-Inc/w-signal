@@ -39,6 +39,8 @@ describe('w-spot', () => {
         await subject01.hi('Calling from remote!'),
         'hi, Calling from remote!'
       )
+      await subject01.hi('Calling from remote again!')
+      await subject01.hi('Calling from remote again!')
     }
 
     await proxy.disconnect(receiver)
