@@ -1,4 +1,4 @@
-# w-spot@2.0.1
+# w-spot@2.0.2
 
 Signal converter for w
 
@@ -8,13 +8,13 @@ Signal converter for w
   + [new WSpot()](#w-spot-classes-w-spot-constructor)
   + [spot.load(Class, names)](#w-spot-classes-w-spot-load)
   + [spot.use(names)](#w-spot-classes-w-spot-use)
-  + [spot.connect(signal)](#w-spot-classes-w-spot-connect)
+  + [spot.connect(spot)](#w-spot-classes-w-spot-connect)
   + [spot.disconnect(id)](#w-spot-classes-w-spot-disconnect)
   + [spot.send(config)](#w-spot-classes-w-spot-send)
   + [spot.ask(subject, options)](#w-spot-classes-w-spot-ask)
   + [spot.load(Class, names)](#w-spot-classes-w-spot-load)
   + [spot.use(names)](#w-spot-classes-w-spot-use)
-  + [spot.connect(signal)](#w-spot-classes-w-spot-connect)
+  + [spot.connect(spot)](#w-spot-classes-w-spot-connect)
   + [spot.disconnect(id)](#w-spot-classes-w-spot-disconnect)
   + [spot.send(config)](#w-spot-classes-w-spot-send)
   + [spot.ask(subject, options)](#w-spot-classes-w-spot-ask)
@@ -54,7 +54,7 @@ Constructor of WSpot class
 
 ### spot.load(Class, names) -> `object`
 
-Load subject into the signal
+Load subject into the spot
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -75,20 +75,20 @@ Use subject
 
 <a class='md-heading-link' name="w-spot-classes-w-spot-connect" ></a>
 
-### spot.connect(signal) -> `Promise.<void>`
+### spot.connect(spot) -> `Promise.<void>`
 
-Connect to another signal
+Connect to another spot
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| signal | WSpot |  |
+| spot | WSpot |  |
 
 
 <a class='md-heading-link' name="w-spot-classes-w-spot-disconnect" ></a>
 
 ### spot.disconnect(id) -> `Promise.<void>`
 
-Disconnect another signal
+Disconnect another spot
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -122,7 +122,7 @@ Ask subject spec
 
 ### spot.load(Class, names) -> `object`
 
-Load subject into the signal
+Load subject into the spot
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -143,20 +143,20 @@ Use subject
 
 <a class='md-heading-link' name="w-spot-classes-w-spot-connect" ></a>
 
-### spot.connect(signal) -> `Promise.<void>`
+### spot.connect(spot) -> `Promise.<void>`
 
-Connect to another signal
+Connect to another spot
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| signal | WSpot |  |
+| spot | WSpot |  |
 
 
 <a class='md-heading-link' name="w-spot-classes-w-spot-disconnect" ></a>
 
 ### spot.disconnect(id) -> `Promise.<void>`
 
-Disconnect another signal
+Disconnect another spot
 
 | Param | Type | Description |
 | ----- | --- | -------- |

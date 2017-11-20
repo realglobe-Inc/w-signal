@@ -41,6 +41,48 @@
                 "type": "WSpot",
                 "description": ""
             }
+        },
+        {
+            "name": "specMix",
+            "access": "",
+            "virtual": false,
+            "description": "Mixin spec",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "- Mixed class"
+            }
+        },
+        {
+            "name": "baseMix",
+            "access": "",
+            "virtual": false,
+            "description": "Mixin base",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "- Mixed class"
+            }
         }
     ],
     "classes": [
@@ -53,8 +95,17 @@
             "fires": "",
             "constructor": {
                 "name": "WSpot",
-                "description": "",
-                "parameters": [],
+                "description": "WSpot",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "type": "string",
+                        "description": "Id for spot",
+                        "default": "newId",
+                        "optional": true,
+                        "nullable": ""
+                    }
+                ],
                 "examples": []
             },
             "functions": [
@@ -353,8 +404,17 @@
             "fires": "",
             "constructor": {
                 "name": "WSpot",
-                "description": "",
-                "parameters": [],
+                "description": "WSpot",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "type": "string",
+                        "description": "Id for spot",
+                        "default": "newId",
+                        "optional": true,
+                        "nullable": ""
+                    }
+                ],
                 "examples": []
             },
             "functions": [
