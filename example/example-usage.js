@@ -26,7 +26,7 @@ async function tryExample () {
 
   {
     // Use remote instance
-    const john = Japan.use('jp.realglobe.new-york.john')
+    const john = await Japan.use('jp.realglobe.new-york.john')
     await john.hi('Calling from Japan!')
   }
 
