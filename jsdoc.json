@@ -64,27 +64,6 @@
             }
         },
         {
-            "name": "specMix",
-            "access": "",
-            "virtual": false,
-            "description": "Mixin spec",
-            "parameters": [
-                {
-                    "name": "Class",
-                    "type": "function",
-                    "description": "Class to mix",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "- Mixed class"
-            }
-        },
-        {
             "name": "spotMix",
             "access": "",
             "virtual": false,
