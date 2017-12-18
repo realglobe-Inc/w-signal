@@ -1,10 +1,12 @@
-# w-spot@2.0.2
+# w-spot@2.0.3
 
 Signal converter for w
 
 + Functions
   + [create(args)](#w-spot-function-create)
+  + [cacheMix(Class)](#w-spot-function-cache-mix)
   + [specMix(Class)](#w-spot-function-spec-mix)
+  + [spotMix(Class)](#w-spot-function-spot-mix)
   + [baseMix(Class)](#w-spot-function-base-mix)
 + [`WSpot`](#w-spot-classes) Class
   + [new WSpot(id)](#w-spot-classes-w-spot-constructor)
@@ -13,13 +15,11 @@ Signal converter for w
   + [spot.connect(spot)](#w-spot-classes-w-spot-connect)
   + [spot.disconnect(id)](#w-spot-classes-w-spot-disconnect)
   + [spot.send(config)](#w-spot-classes-w-spot-send)
-  + [spot.ask(subject, options)](#w-spot-classes-w-spot-ask)
   + [spot.load(Class, names)](#w-spot-classes-w-spot-load)
   + [spot.use(names)](#w-spot-classes-w-spot-use)
   + [spot.connect(spot)](#w-spot-classes-w-spot-connect)
   + [spot.disconnect(id)](#w-spot-classes-w-spot-disconnect)
   + [spot.send(config)](#w-spot-classes-w-spot-send)
-  + [spot.ask(subject, options)](#w-spot-classes-w-spot-ask)
 
 ## Functions
 
@@ -33,11 +33,31 @@ Create a WSpot instance
 | ----- | --- | -------- |
 | args | * |  |
 
+<a class='md-heading-link' name="w-spot-function-cache-mix" ></a>
+
+### cacheMix(Class) -> `function`
+
+Cache mix
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
 <a class='md-heading-link' name="w-spot-function-spec-mix" ></a>
 
 ### specMix(Class) -> `function`
 
 Mixin spec
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="w-spot-function-spot-mix" ></a>
+
+### spotMix(Class) -> `function`
+
+Spot mix
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -131,18 +151,6 @@ Send message
 | config |  |  |
 
 
-<a class='md-heading-link' name="w-spot-classes-w-spot-ask" ></a>
-
-### spot.ask(subject, options) -> `Promise.<Object>`
-
-Ask subject spec
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| subject | string |  |
-| options | Object |  |
-
-
 <a class='md-heading-link' name="w-spot-classes-w-spot-load" ></a>
 
 ### spot.load(Class, names) -> `object`
@@ -197,18 +205,6 @@ Send message
 | Param | Type | Description |
 | ----- | --- | -------- |
 | config |  |  |
-
-
-<a class='md-heading-link' name="w-spot-classes-w-spot-ask" ></a>
-
-### spot.ask(subject, options) -> `Promise.<Object>`
-
-Ask subject spec
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| subject | string |  |
-| options | Object |  |
 
 
 

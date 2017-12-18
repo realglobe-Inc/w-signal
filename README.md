@@ -120,7 +120,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [w-spot@2.0.2](./doc/api/api.md)
++ [w-spot@2.0.3](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#w-spot-function-create)
   + [WSpot](./doc/api/api.md#w-spot-class)
 

@@ -265,35 +265,6 @@
                     }
                 },
                 {
-                    "name": "ask",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Ask subject spec",
-                    "parameters": [
-                        {
-                            "name": "subject",
-                            "type": "string",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "Promise.<Object>",
-                        "description": ""
-                    }
-                },
-                {
                     "name": "load",
                     "access": "",
                     "virtual": false,
@@ -403,35 +374,6 @@
                     "examples": [],
                     "returns": {
                         "type": "Promise.<*>",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "ask",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Ask subject spec",
-                    "parameters": [
-                        {
-                            "name": "subject",
-                            "type": "string",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "Promise.<Object>",
                         "description": ""
                     }
                 }
@@ -574,35 +516,6 @@
                     }
                 },
                 {
-                    "name": "ask",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Ask subject spec",
-                    "parameters": [
-                        {
-                            "name": "subject",
-                            "type": "string",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "Promise.<Object>",
-                        "description": ""
-                    }
-                },
-                {
                     "name": "load",
                     "access": "",
                     "virtual": false,
@@ -712,35 +625,6 @@
                     "examples": [],
                     "returns": {
                         "type": "Promise.<*>",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "ask",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Ask subject spec",
-                    "parameters": [
-                        {
-                            "name": "subject",
-                            "type": "string",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "Promise.<Object>",
                         "description": ""
                     }
                 }
